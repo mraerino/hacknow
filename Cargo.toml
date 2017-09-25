@@ -1,6 +1,6 @@
 [package]
 authors = [
-    "Marcus Weiner <melodie124@gmail.com>"
+    "Marcus Weiner <melodie124@gmail.com>",
     "Moritz Gunz <moritz.gunz@gmail.com>"
 ]
 name = "hacknow"
