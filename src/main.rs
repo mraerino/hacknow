@@ -13,9 +13,9 @@ fn main() {
     let home_dir = std::env::home_dir()
         .and_then(|p| p.to_str().map(|s| s.to_owned()))
         .expect("missing home directory");
-    let matches_result = App::new("hacknow")
-        .about("A utility for managing workspaces and project directories")
-        .author("Marcus Weiner <melodie124@gmail.com>, Moritz Gunz <moritz.gunz@gmail.com>")
+    let matches_result = App::new(crate_name!())
+        .about(crate_description!())
+        .author(crate_authors!())
         .version(crate_version!())
         .arg(Arg::with_name("REPO")
             .index(1)
