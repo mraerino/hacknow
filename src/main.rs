@@ -35,6 +35,9 @@ fn main() {
         .get_matches_safe();
 
     if let Err(err) = matches_result {
+        // This case occurs when either help text or the version was requested,
+        // or required arguments were missing. We simply output what clap has to
+        // say and cleanly exit.
         eprintln!("{}", &err.message);
         exit();
     }
