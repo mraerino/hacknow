@@ -2,6 +2,8 @@
 
 Utility for automation of project directories and switching workspaces based on the GitHub directory structure - `User/Project`
 
+This is a RIIR for fun of [mraerino/hacknow](https://github.com/mraerino/hacknow).
+
 ## Functionality
 
 - Directory structure: `<projects-dir>/<user>/<repo>`
@@ -12,9 +14,9 @@ Utility for automation of project directories and switching workspaces based on 
 
 ## Getting started
 
-Not available on cargo:
+This is available on cargo:
 
-`cargo install hacknow`
+`cargo install hacknow``
 
 ### Shell function
 
