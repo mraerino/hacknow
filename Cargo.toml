@@ -5,6 +5,16 @@ authors = [
 ]
 name = "hacknow"
 version = "0.1.0"
+license = "MIT"
+description = "A utility for automation of project directories and switching workspaces"
+repository = "https://github.com/NeoLegends/hacknow-rs"
+readme = "README.md"
+keywords = ["project", "management"]
+categories = [
+    "command-line-interface",
+    "command-line-utilities",
+    "development-tools"
+]
 
 [dependencies]
 clap = "2.26.2"
