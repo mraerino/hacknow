@@ -9,3 +9,6 @@ version = "0.1.0"
 [dependencies]
 clap = "2.26.2"
 emojicons = "1.0.1"
+
+[profile.release]
+lto = true
