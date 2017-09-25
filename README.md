@@ -16,7 +16,7 @@ This is a RIIR for fun of [mraerino/hacknow](https://github.com/mraerino/hacknow
 
 This is available on cargo:
 
-`cargo install hacknow``
+`cargo install hacknow`
 
 ### Shell function
 
