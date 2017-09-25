@@ -12,9 +12,9 @@ Utility for automation of project directories and switching workspaces based on 
 
 ## Getting started
 
-Available on npm:
+Not available on cargo:
 
-`npm i -g hacknow`
+`cargo install hacknow`
 
 ### Shell function
 
@@ -44,8 +44,8 @@ cd $(hacknow <user>/<repo>) # Alternative if the shell function does not work fo
 ### Options
 
 ```
--d|--project-dir <dir>    Choose base directory for your projects (default: $HOME)
---ssh                     Use ssh protocol for git remote
+-d|--dir <dir>    Choose base directory for your projects (default: $HOME)
+--ssh             Use ssh protocol for git remote
 ```
 
 ### Examples
